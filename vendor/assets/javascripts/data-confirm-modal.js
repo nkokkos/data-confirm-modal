@@ -179,7 +179,7 @@
     var modal = $(
       '<div id="'+id+'" class="modal '+modalClass+' + " tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +
    /* '<div id="'+id+'" class="modal '+modalClass+' '+fade+'" tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +  */  
-      '<div class="modal-dialog" role="document">' +
+      '<div class="modal-dialog modal-dialog-centered" role="document">' +
           '<div class="modal-content">' +
             '<div class="modal-header">' +
               modalHeader +
